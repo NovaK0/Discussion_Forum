@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Container{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: #202225;
+}
+
+:root{
+    font-size: 3vh;
+}
+
+.Logo_container{
+    padding-top: 1rem;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.Logo_image{
+    height: 4.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Logo_name{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.80rem;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Signup_account_division{
+    height: fit-content;
+    width: 23rem;
+    margin-left: auto;
+    background-color: #2f3136;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 1.3rem;
+    border: 0.010rem solid rgb(95, 95, 95);
+    box-shadow: 0.20rem 0.20rem 0.30rem rgb(61, 61, 61);
+}
+
+.Signup_account__title{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.95rem;
+    margin-left: 1rem;
+    padding-top: 0.70rem;
+}
+
+input{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.85rem;
+    margin-left: 1rem;
+    margin-top: 0.85rem;
+    width: 86%;
+    padding: 0.40rem;
+    outline: none;
+    border: 0.010rem solid rgb(73, 73, 73);
+    background-color: #272727;
+    color: rgb(194, 194, 194);
+}
+
+input::placeholder{
+    color: rgb(201, 201, 201);
+}
+#Signup_button{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.80rem;
+    margin-bottom: 0.90rem;
+    padding: 0.30rem;
+    width: 90%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.85rem;
+    outline: none;
+    border: 0px;
+    background-color: rgb(99, 99, 250);
+    cursor: pointer;
+}
+
+#Error_message_division{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.75rem;
+    margin-left: 1rem;
+    margin-top: 0.40rem;
+    color: rgb(255, 13, 13);
+}

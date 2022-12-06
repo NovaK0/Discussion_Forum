@@ -1,0 +1,1397 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-y: hidden;
+}
+
+.Main_container{
+    display: flex;
+}
+
+/* Root font size  */
+
+:root{
+    font-size: 3vh;
+}
+
+/* Userinformation division consist all web option  */
+
+#User_information_division{
+    height: 100vh;
+    width: 18vw;
+    background-color: #202225;
+    border-right: 0.010rem solid rgb(97,97,97);
+}
+
+/* Web logo and name division  */
+
+#Logo_name_division{
+    display: flex;
+    height: 8vh;
+    border-bottom: 0.010rem solid rgb(97,97,97);
+    text-align: center;
+    justify-content: left;
+}
+
+#Logo_division{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 7vh;
+    width: 8vh;
+    margin-left: 0.40rem;
+}
+
+#Logo__name__division{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+/* Username information division  */
+
+#Username_information_division{
+    width: 100%;
+    text-align: center;
+    justify-content: left;
+    display: flex;
+    padding-top: 0.30rem;
+    padding-bottom: 0.30rem;
+    border-bottom: 0.010rem solid rgb(59,59,59);
+    cursor: pointer;
+}
+
+#Username_information_division:hover{
+    background-color: rgb(49, 49, 49);
+}
+
+#Username_information__image{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 0.50rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#Username_information__name{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    color: #6284ff;
+    margin-left: 0.50rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#Code_information_division{
+    height: 100vh;
+    width: 82vw;
+    background-color: white;
+}
+
+#Searching_menu_division{
+    width: 100%;
+    height: 8vh;
+    background-color: #202225 ;
+    border-bottom: 0.010rem solid rgb(97, 97, 97);
+    display: flex;
+    text-align: center;
+    justify-content: left;
+}
+
+#Search_button{
+    outline: none;
+    border: 0px;
+    margin-left: 0.90rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#Search_image{
+    height: 5vh;
+    width: 5vh;
+}
+
+#Search_input_widget{
+    width: 20rem;
+    height: 5vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.90rem;
+    border: 0.010rem solid  rgb(94, 94, 94);
+    background-color: rgb(58, 58, 58);
+    font-size: 0.85rem;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(202, 202, 202);
+    padding: 0.20rem;
+}
+
+#Search_input_widget:focus{
+   outline: 00.010rem solid rgb(122, 122, 122);
+}
+
+#Code_list_main_division{
+    height: 92vh;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #36393f;
+    display: block;
+}
+
+#All_code_list_division{
+    height: 92vh;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #36393f;
+    display: none;
+}
+
+.All_code_list_data_division{
+    height: 4.60rem;
+    width: 96%;
+    margin-top: 0.30rem;
+    margin-bottom: 0.30rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.010rem solid rgb(109, 109, 109);
+    background-color: #35373a;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.All_code_list_data_first_name_division{
+    height: 3.40rem;
+    width: 3.40rem;
+    background-color: rgb(103, 131, 255);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.40rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.All_code_list_data_first_name{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.All_code_list_other_data{
+    margin-left: 0.30rem;
+}
+
+.All_code_list_data_title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95rem;
+    color: white;
+    margin-top: 0.35rem;
+    text-align: left;
+    padding-left: 0.90rem;
+}
+
+.All_code_list_option_division{
+   display: flex;
+   text-align: center;
+   justify-content: left;
+   margin-top: 0.80rem;
+   padding-left: 0.90rem;
+}
+
+.All_code_list_comment_option{
+
+    height: 1.40rem;
+    width: 1.40rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+.All_code_list_language_option{
+
+    margin-left: 0.50rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.80rem;
+    color: rgb(218, 218, 218);
+
+}
+.All_code_list_like_option{
+
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+    margin-left: 0.60rem;
+    color: rgb(170, 170, 170);
+}
+
+.Code_main_division{
+    margin-top: 0.70%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: 0.010rem solid rgb(124, 124, 124);
+    overflow-x: hidden;
+}
+
+.Code_division__title{
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.95rem;
+    color: rgb(223, 223, 223);
+    background-color: #202225;
+    padding-top: 0.40rem;
+    padding-bottom: 0.40rem;
+    padding-left: 0.70rem;
+    border-bottom: 0.010rem solid rgb(88, 88, 88);
+}
+
+.Code_division__other_information{
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    border-bottom: 0.010rem solid rgb(51, 51, 51);
+    background-color: #202225;
+}
+
+.Code_division_language_owner_name_information{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    justify-content: left;
+    margin: 0.25rem;
+    width: 20%;
+    padding: 0.15rem;
+}
+
+.Code_division__language_information{
+    background-color: transparent;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.72rem;
+    padding: 0.15rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.40rem;
+    color: rgb(179, 179, 179);
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Code_division__owner_information{
+    font-family: 'Mukta', sans-serif;
+    font-size: 0.90rem;
+    color: rgb(170, 169, 169);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.90rem;
+    border-left: 0.010rem solid rgb(133, 133, 133);
+    padding-left: 0.70rem;
+    cursor: pointer;
+}
+
+.Code_comment_division{
+    margin-left: 1.10rem;
+    border-left: 0.010rem solid rgb(122, 122, 122);
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    background-color: #202225;
+    width: 80%;
+}
+
+.Comment_image{
+    height: 1.40rem;
+    width: 1.40rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.60rem;
+}
+
+.Code_comment_username_comment_value_division{
+    border-left: 0.010rem solid rgb(71, 71, 71);
+    margin-left: 0.60rem;
+}
+
+.Code_comment_username{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.80rem;
+    color: rgb(236, 236, 236);
+    margin-left: 0.50rem;
+    margin-top: 0.10rem;
+    text-align: left;
+}
+
+.Code_comment_value{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+    text-align: left;
+    margin-left: 0.50rem;
+    margin-top: 0.20rem;
+    margin-bottom: 0.20rem;
+    color: rgb(175, 175, 175);
+}
+
+.Store_code_division{
+    height: 24rem;
+    width: 100%;
+}
+
+.Code_division__main_code{
+    height: 22rem;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: #202020;
+}
+
+
+
+#Upload_code_button_main_division{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 0.80rem;
+    border-bottom: 0.010rem solid rgb(59,59,59);
+}
+
+#Upload_code_button{
+    margin-top: 0.95rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.95rem;
+    color: #f0f0f0;
+    border: 0.010rem solid rgb(75, 75, 75);
+    padding: 0.50rem;
+    padding-left: 0.65rem;
+    padding-right: 0.65rem;
+    cursor: pointer;
+    background-color: #36393f ;
+}
+
+
+
+
+
+
+
+.Like_dislike_comment_division{
+    height: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    background-color: #202225;
+    border-top: 0.010rem solid rgb(77, 77, 77);
+}
+
+.Like_division{
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.50rem;
+    display: flex;
+    text-align: center;
+    justify-content: center ; 
+    border-right: 0.010rem solid gray ;
+    padding-right: 0.50rem;
+    padding-bottom: 0.20rem;
+}
+
+.Like_button_image{
+    height: 1.20rem;
+    width: 1.20rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Send_comment_division{
+    margin-left: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+}
+
+.Comment_send_button{
+    font-family: 'Mukta', sans-serif;
+    font-size: 0.85rem;
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    padding: 0.10rem;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+    color: #9a9eff; 
+}
+
+
+
+
+#All_website_option_list_division{
+    margin-top: 0.90rem;
+}
+
+.list_division{
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    padding: 0.55rem;
+    cursor: pointer;
+    border-bottom: 0.010rem solid rgb(59,59,59);
+}
+
+.list_division:hover{
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+.List_image{
+    height: 1.40rem;
+    width: 1.40rem;
+    margin-left: 0.80rem;
+}
+
+.List_name_division{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.90rem;
+    margin-left: 0.70rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(160, 160, 160);
+}
+
+
+.Spinner_division{
+    margin-top: 0.80rem;
+    width: 100%;
+    display: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.Spinner_text_information{
+    font-size: 0.95rem;
+    margin-left: 0.50rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+#Update_email_verify_background_division{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(27, 27, 27, 0.4);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: none;
+}
+
+
+#Code_owner_information_division{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.850);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: none; 
+}
+
+#Code_owner_data_division{
+    height: fit-content;
+    width: 30rem;
+    background-color: rgb(37, 37, 37);
+    box-shadow: 0.20rem 0.20rem 0.30rem rgb(58, 58, 58);
+    border: 0.010rem solid rgb(77, 77, 77);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 1.20rem;
+    margin: auto;
+}
+
+@keyframes Background_animation{
+    0%{
+        background-color: rgba(53, 53, 53, 0.7);
+    }
+    25%{
+        background-color: rgba(53, 53, 53, 0.65);
+    }
+    50%{
+        background-color: rgba(53, 53, 53, 0.6);
+    }
+    75%{
+        background-color: rgba(53, 53, 53, 0.5);
+    }
+    100%{
+        background-color: rgba(53, 53, 53, 0.4);
+    }
+}
+
+
+#Update_email_input:focus{
+    outline: 00.010rem solid rgb(122, 122, 122);
+}
+
+#Update_email_code:focus{
+    outline: 00.010rem solid rgb(122, 122, 122);
+}
+
+
+
+#Notification_message_division{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.90rem;
+    padding: 00.55rem;
+    background-color: rgb(37, 37, 37);
+    color: #325eff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    margin-bottom: 0.90rem;
+    margin-left: 0.60rem;
+    border: 0.10rem solid rgb(104, 104, 104);
+    box-shadow: 0.20rem 0.20rem 0.30rem rgb(51, 51, 51);
+    animation-name: Notification_message_division_animation;
+    animation-duration: 700ms;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    display: none;
+}
+
+@keyframes Notification_message_division_animation{
+    0%{
+        margin-bottom: -0.90rem;
+    }
+    10%{
+        margin-bottom: -0.30rem;
+    }
+    50%{
+        margin-bottom: 0.25rem;
+    }
+    75%{
+        margin-bottom: 0.50rem;
+    }
+    100%{
+        margin-bottom: 0.90rem;
+    }    
+}
+
+#Send_comment_background_division{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(122, 121, 121, 0.2);
+    position: absolute;
+    margin: auto;
+    height: 50vh;
+    display: none;
+    width: 100%;
+ }
+
+#Send_comment_division{
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    margin: auto;
+    margin-top: 1rem;
+    width: 28rem;
+    background-color: rgb(32, 32, 32);
+    padding: 0.50rem;
+    box-shadow: 0.20rem 0.20rem 0.30rem rgb(48, 48, 48);
+}
+
+#Send_comment_textarea{
+    height: 28vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.30rem;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.80rem;
+    background-color: rgb(49, 49, 49);
+    color: rgb(228, 228, 228);
+}
+
+#Send_comment_textarea:focus{
+    outline: 0.010rem solid rgb(138, 138, 138);
+}
+
+#Comment_send_close_button_division{
+    margin-top: 0.60rem;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+#Comment_send_button_division{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.85rem;
+    color: #ff790b;
+    cursor: pointer;
+}
+
+#Comment_close_button_division{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.85rem;
+    cursor: pointer;
+    margin-left: 0.80rem;
+    margin-right: 0.85rem;
+    color: rgb(180, 180, 180);
+}
+
+#Comment_division_error_message{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+    margin-left: 0.20rem;
+    margin-top: 0.10rem;
+    color: rgb(255, 110, 110);
+}
+
+.Code_owner_information_division{
+    margin-left: 1rem;
+    margin-top: 1.10rem;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+}
+
+.Code_owner_division_image{
+    height: 1.80rem;
+    width: 1.80rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Code_owner_information__name{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1rem;
+    color: rgb(214, 214, 214);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.70rem;
+}
+
+#Show_all_comment_background_division{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.850);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+    overflow-y: auto;
+}
+
+#All_comment_data_division{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    height: fit-content;
+    width: 38rem;
+    background-color: rgb(37, 37, 37);
+    border: 0.010rem solid rgb(77, 77, 77);
+    padding-bottom: 1rem;
+    margin-top: 1.60rem;
+}
+
+.Show_comment_data_division{
+    margin-left: 0.80rem;
+    margin-top: 0.70rem;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    height: fit-content;
+    border: 0.010rem solid rgb(85, 85, 85);
+    width: 36rem;
+    padding: 0.30rem;
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
+    padding-left: 0.35rem;
+    height: 9rem;
+    background-color: rgb(49, 49, 49);
+}
+
+.Comment_username_first_character_division{
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0.35rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.Comment_sender_name_division{
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 0.95rem;
+    color: rgb(29, 29, 29);
+    font-size: 1.15rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: fit-content;
+}
+
+.Username_commentvalue_division{
+    height: 9rem;
+    width: 34rem;
+    text-align: left;
+    justify-content: left;
+}
+
+.Comment_username_name_division{
+    display: flex;
+    text-align: center; 
+    justify-content: left;
+    height: 1.5rem;
+}
+
+.Comment_username_division{
+    font-family: 'Karla', sans-serif;
+    font-size: 0.93rem;
+    color: white;
+    margin-left: 0.80rem ; 
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Comment_date_division{
+    font-family: 'Karla', sans-serif;
+    font-size: 0.82rem;
+    color: rgb(175, 175, 175);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.30rem;
+    margin-top: 0.20rem;
+}
+
+.Comment_data_division{
+    height: 7.1rem;
+    width: 31.5rem;
+    overflow-x: auto;
+    overflow-y: auto;
+    font-family: 'Karla', sans-serif;
+    font-size: 0.82rem;
+    color: rgb(230, 230, 230);
+    margin-left: 0.80rem;
+    margin-top: 0.40rem;
+}
+
+/* ---- Account information division ---- */
+
+#Account_details_information_background_division{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.850);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: none;
+}
+
+#Account_details_information_division{
+    height: fit-content;
+    width: 30rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgb(37, 37, 37);
+    border: 0.010rem solid rgb(77, 77, 77);
+    box-shadow: 0.20rem 0.20rem 0.30rem rgb(59, 59, 59);
+    padding-bottom: 1.20rem;
+}
+
+.Account_details__division{
+    margin-left: 1rem;
+    margin-top: 1.05rem;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+}
+
+.Account_details__division_image{
+    height: 1.70rem;
+    width:  1.70rem;
+}
+
+.Account_details__division_name{
+    margin-left: 0.90rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.85rem;
+    color: rgb(226, 226, 226);
+}
+
+/* ---- Send code division ----  */
+
+#Send_code_background_division{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.850);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    overflow-y: auto;
+    display: none;
+}
+
+#Send_code_division{
+    background-color: rgb(37, 37, 37);
+    height: fit-content;
+    width: 32rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    border: 0.010rem solid rgb(77, 77, 77);
+    box-shadow: 0.20rem 0.20rem 0.30rem rgb(59, 59, 59);
+    overflow-y: hidden;
+}
+
+.Send_code_division__title{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    justify-content: left;
+    border-bottom: 0.010rem solid rgb(75, 75, 75);
+    padding-top: 0.60rem;
+    padding-bottom: 0.60rem;
+}
+
+.Title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.05rem;
+    color: #79e0ff;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
+    float: left;
+}
+
+.Send_code_division__close{
+    font-size: 0.90rem;
+    float: right;
+    margin-right: 0.80rem;
+    cursor: pointer;
+    color: rgb(224, 224, 224);
+}
+
+#Sendcode_checkbox_main_division{
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    margin-left: 1rem;
+    margin-top: 0.30rem;
+}
+
+#Code_for_problem_input_widget{
+    height: 1.05rem;
+    width: 1.05rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#Checkbox_information_division{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(194,194,194);
+    font-size: 0.82rem;
+    margin-left: 0.50rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Send_code_division_error_message{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.80rem;
+    margin-left: 1rem;
+    margin-top: 0.40rem;
+    color: rgb(253, 109, 109);
+}
+
+.Send_code_lable{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95rem;
+    margin-left: 1rem;
+    padding-top: 0.75rem;
+    color: rgb(235, 235, 235);
+}
+
+#Code_title_input:focus{
+    outline: 0.010rem solid rgb(138, 138, 138);
+}
+
+.Send_code_division_all_input_widget{
+    margin-top: 0.60rem;
+    margin-left: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.85rem;
+    width: 90%;
+    padding: 0.30rem;
+    outline: none;
+    border: 0.010rem solid rgb(73, 73, 73);
+    background-color: #303030;
+    color: rgb(194, 194, 194);
+}
+
+#Code_language_select{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.85rem;
+    margin-left: 1rem;
+    margin-top: 0.50rem;
+    outline: none;
+    padding: 0.20rem;
+    background-color: #303030;
+    border: 0.010rem solid rgb(73, 73, 73);
+    color: rgb(194, 194, 194);
+}
+
+
+#Code_textarea{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.80rem;
+    height: 40vh;
+    width: 90%;
+    overflow-y: auto;
+    margin-left: 1rem;
+    margin-top: 0.50rem;
+    outline: none;
+    border: 0.010rem solid rgb(73, 73, 73);
+    background-color: #303030;
+    color: rgb(194, 194, 194);
+}
+
+#Code_textarea:focus{
+    outline: 0.010rem solid rgb(138, 138, 138)
+}
+
+#Code_keyword_information{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.70rem;
+    margin-top: 0.10rem;
+    margin-left: 1rem;
+    color: rgb(146, 146, 255);
+}
+
+#Keywords_input:focus{
+    outline: 0.010rem solid rgb(138, 138, 138)
+}
+
+#Send_code_button{
+    background-color: rgb(99, 99, 250);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    display: block;
+}
+
+
+/* ---- Account setting division ----  */
+
+
+#Account_setting_background_division{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.850);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: none;
+}
+
+#Account_setting_division{
+    height: fit-content;
+    width: 32rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    background-color: rgb(37, 37, 37);
+    border: 0.010rem solid rgb(77, 77, 77);
+    box-shadow: 0.20rem 0.20rem 0.30rem rgb(59, 59, 59);
+}
+
+#Account_username_information_division{
+    margin-left: 1rem;
+    margin-top: 0.80rem;
+    padding-left: 0.60rem;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+}
+
+#Account_username__image{
+    height: 2.3rem;
+    width: 2.3rem;
+}
+
+#Account_username_changeoption_name{
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    margin-left: 0.70rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(219, 219, 219);
+}
+
+#Account_username__name{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.40rem;
+}
+
+.All_account_setting_option_division{
+    margin-top: 1.10rem;
+    margin-left: 1rem;
+}
+
+.All_account_setting_option_title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.90rem;
+    margin-left: 1rem;
+    color: rgb(103, 131, 255);
+}
+
+.All_account_setting_change_option_division{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 0.70rem;
+}
+
+.Change_option_image{
+    height: 1.40rem;
+    width: 1.40rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.All_account_change_information_division{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.80rem;
+    margin-left: 0.40rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(199, 199, 199);
+}
+
+/* All update option division  */
+
+.Update_data_division{
+    height: fit-content;
+    width: 26rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 0.20rem 0.20rem 0.30rem rgb(59, 59, 59);
+    background-color: rgb(37, 37, 37);
+    border: 0.010rem solid rgb(77, 77, 77);
+}
+
+/* Update data division input widget  */
+
+.Update_input_widget{
+    margin-top: 1.10rem;
+    margin-left: 1rem;
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.80rem;
+    padding: 0.30rem;
+    outline: none;
+    border: 0.010rem solid rgb(73, 73, 73);
+    background-color: #303030;
+    color: rgb(194, 194, 194);
+}
+
+.Update_input_widget::placeholder{
+    color: rgb(184, 184, 184);
+}
+
+.Update_data_error_message_division{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.76rem;
+    margin-left: 1rem;
+    margin-top: 0.50rem;
+    color: rgb(253, 109, 109);
+}
+
+/* Update data division save and close button option division  */
+
+.Update_save_close_button_division{
+    margin-top: 2.50rem;
+    margin-bottom: 0.60rem;
+    width: 25rem;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.Update_cancel_division{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.80rem;
+    padding: 0.25rem;
+    cursor: pointer;
+    color: rgb(240, 240, 240);
+}
+
+.Update_cancel_division:hover{
+    background-color: rgb(48, 48, 48);
+}
+
+.Update_save_division{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.80rem;
+    font-weight: bold;
+    margin-left: 0.90rem;
+    color: #79e0ff;
+    margin-right: 0.90rem;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+
+.Update_save_division:hover{
+    background-color: rgb(48,48,48);
+}
+
+/* ---- Update password option division ----  */
+
+#Update_password_division{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: none;
+}
+
+#Account_update_password:focus{
+    outline: 0.010rem solid rgb(138, 138, 138)
+}
+
+#Account_re-enter_password:focus{
+    outline: 0.010rem solid rgb(138, 138, 138)
+}
+
+#Update_username_input:focus{
+    outline: 00.010rem solid rgb(122, 122, 122);
+}
+
+/* Update Instagram username background division  */
+
+#Update_instagram_username_division{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: none;
+}
+
+#Instagram_username_value:focus{
+    outline: 00.010rem solid rgb(122, 122, 122);
+}
+
+/* Update Twitter username background division  */
+
+#Update_twitter_username_division{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: none;
+}
+
+#Twitter_username:focus{
+    outline: 00.010rem solid rgb(122, 122, 122);
+}
+
+/* Update websiteurl background division  */
+
+#Update_weburl_division{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: none;
+}
+
+#Update_website_url:focus{
+    outline: 00.010rem solid rgb(122, 122, 122);
+}
+
+/* Update emailadderss background division  */
+
+#Update_emailaddress_background_division{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: none;
+}
+
+#Update_email_input:focus{
+    outline: 00.010rem solid rgb(122, 122, 122);
+}
+
+/* Update emailaddress verify option division  */
+
+#Update_email_verify_background_division{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: none;
+}
+
+#Update_email_code:focus{
+    outline: 00.010rem solid rgb(122, 122, 122);
+}
+
+/* --- Particular code information division ---  */
+
+#Code_information_background_division{
+    height: auto;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: none;
+}
+
+#Code_information_main_division{
+    height: fit-content;
+    width: 35rem;
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding-bottom: 2rem;
+}
+
+#Code_information_main_division_codetitle{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.70rem;
+}
+
+.Code_information_main_division__title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.05rem;
+    color: #79e0ff;
+    text-align: left;
+}
+
+#Code_information_main_division_codetitle_data{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.90rem;
+    color: rgb(172, 172, 172);
+    margin-top: 0.50rem;
+}
+
+#Main_code_information_division{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.80rem;
+}
+
+#Main_code_information_data{
+    height: 20rem;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: #202020;
+    margin-top: 0.50rem;
+    border: 0.010rem solid rgb(59, 59, 59);
+}

@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    font-size: 3vh;
+}
+
+.Container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #202225;
+}
+
+.Logo_container{
+    padding-top: 1vw;
+    display: flex;
+    width: 98vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.Logo_image{
+    height: 4.5rem;
+    width: 6rem;
+    margin-left: -0.80rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Logo_name{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.80rem;
+    color: rgb(240, 240, 240);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Signin_container{
+    height: fit-content;
+    width: 23rem;
+    background-color: #2f3136;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 1.3rem;
+    border: 0.010rem solid rgb(95, 95, 95);
+    box-shadow: 0.20rem 0.20rem 0.30rem rgb(61, 61, 61);
+}
+
+#Signin_container__title__userimage{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 1rem;
+    padding-top: 0.70rem;
+    display: flex;
+}
+
+#Signin_container__userimage{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#Signin_container__title{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.15rem;
+    margin-left: 0.60rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(204, 204, 204);
+}
+
+#Userimage{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+input{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.8rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.60rem;
+    width: 86%;
+    padding: 0.35rem;
+    outline: none;    
+    border: 0.010rem solid rgb(73, 73, 73);
+    background-color: #272727;
+    color: rgb(194, 194, 194);
+}
+
+input::placeholder{
+    color: rgb(201, 201, 201);
+}
+
+#Submit_data_button{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.80rem;
+    margin-bottom: 0.90rem;
+    padding: 0.30rem;
+    width: 90%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.85rem;
+    outline: none;
+    border: 0px;
+    background-color: rgb(99, 99, 250);
+    cursor: pointer;
+}
+
+.Error_message_division{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.75rem;
+    margin-left: 1rem;
+    margin-top: 0.40rem;
+    color: rgb(255, 119, 119);
+}
+
+@media only screen and (max-width:600px){
+    :root{
+        font-size: 3vh;
+    }
+
+    .Signin_container{
+        width: 92%;
+    }
+}
